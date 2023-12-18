@@ -1,10 +1,10 @@
 import os
-from google.colab import notebook
+from google.colab import runtime
 
 def secure_notebook():
   """Secures the current Colab notebook by making it read-only."""
 
-  notebook.get_notebook()
+  notebook = runtime.get_notebook()
 
   notebook.set_readonly(True)
 
