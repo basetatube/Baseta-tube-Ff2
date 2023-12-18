@@ -1,5 +1,4 @@
 import os
-from google.colab import output
 from google.colab import notebook
 
 def secure_notebook():
